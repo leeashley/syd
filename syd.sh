@@ -18,5 +18,5 @@ if [ "$1" != "" ] && [ "$2" != "" ] && [ "$3" != "" ] && [ "$4" == "2" ] || [ "$
 	git add $1
 	git commit -m $2
 	git push $3 master
-	echo "Não precisou salvar a senha."
+	echo "Você optou por não salvar a senha."
 fi
